@@ -6,3 +6,9 @@ document.getElementById('change-theme-btn').addEventListener('click', function (
 if (JSON.parse(localStorage.getItem('dark-theme-enabled'))) {
   document.body.classList.add('dark-theme');
 }
+
+/* select option */
+function myFunction() {
+  const project = document.getElementById("mySelect").value;
+  document.getElementById("select").innerHTML = "You selected: " + project;
+}
