@@ -292,10 +292,11 @@ padding-top: 50px;
 }
 /* css for project button*/
 .Click{
-    padding: 25px 25px;
-    margin-bottom: 20px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    display:initial;
     font-size: 24px;
-    text-align: center;
+    text-align:center;
     cursor: pointer;
     outline: none;
     color: #fff;
@@ -304,13 +305,22 @@ padding-top: 50px;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
-  
+ 
   .Click:hover {background-color: #3e8e41}
   
   .Click:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+  .pro_image{
+    width: 100%;
+    border: 5px solid burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px;
+    margin: 20px;
+    text-align: center;
   }
 /*--------------------------------------
 -------- Footer --------
