@@ -27,6 +27,12 @@ ul li{
 transform: rotate(360deg) scale(1.1);
 
 }
+
+/*
+No need to repeat yourself this much!
+What if you gave each of these icons the same class?
+That way, you could set font-size: 4em; for everything at once.
+*/
 #html {
     font-size: 4em;
 }
