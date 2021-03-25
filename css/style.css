@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(font-awesome.min.css); /* This is causing a 404 error! Use a url for a CDN just like the line below.*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 h1{
