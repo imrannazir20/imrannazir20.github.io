@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<!--  
+I think there are some good opportunities to simplify your HTML!
+Ways to simplify:
+- If a tag you are using as a container has only a single child, it's probably not necessary
+- Try replacing div tags with semantic html tags that tell me more about the structure of your web app!
+
+
+-->
+
+
 <head>
     <title>Imran's Portfolio</title>
     <meta charset="utf-8">
@@ -13,6 +23,7 @@
 
 </head>
 <body>
+    <!--   What is this div.main_wrapper used for? I don't see it targeted in any css. Consider getting rid of it!   -->
     <div class="main_wrapper">
         <!---HEADER AREA START--->
         <header>
@@ -38,6 +49,7 @@
         <div class="link">
         <button id="change-theme-btn">theme</button>
     </div>
+        <!--     This seems like a confusing class name since it wraps the main sections of your app - not the header!     -->
         <div class="header">
          <div class="container">
                 <div class="header_heading">
@@ -53,6 +65,7 @@
             </div>
         </div>
         <div class="gallery_area fix">
+            <!--      You can probably remove either div.gallery_area or div.container here, since div.gallery_area has only one child.        -->
             <div class="container">
                 <div class="gallery">
                     <div class="style1 single_img">
