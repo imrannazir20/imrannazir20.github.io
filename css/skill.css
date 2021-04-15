@@ -5,6 +5,11 @@ body{
     min-height: 100vh;
     background:rgb(181, 236, 243); 
 }
+.logo img {
+    height: 60px;
+    width: 60px;
+    float: left;
+}
 ul{
     position: relative;
     display: flex;
@@ -23,10 +28,12 @@ ul li{
   color: #fff;
   transition: 0.5s;
 }
+
 .skill-icon :hover{
 transform: rotate(360deg) scale(1.1);
 
 }
+
 #html {
     font-size: 4em;
 }
